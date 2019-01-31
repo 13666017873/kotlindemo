@@ -29,7 +29,6 @@ class MainActivity : BaseActivity() {
                 tbList.add(userDao)
         }
 
-        //这是测试
         recyclerview.setAdapter(ReadListAdapter(this,tbList))
     }
 }
