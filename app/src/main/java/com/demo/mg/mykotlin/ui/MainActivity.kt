@@ -28,6 +28,8 @@ class MainActivity : BaseActivity() {
                 userDao.userName = ("userName"+ id)
                 tbList.add(userDao)
         }
+
+        //这是测试
         recyclerview.setAdapter(ReadListAdapter(this,tbList))
     }
 }
