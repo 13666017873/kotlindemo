@@ -8,8 +8,6 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() {
 
-    //TestTestTestTestTestTestTestTestTest
-
     override fun initLayout(): Int { return R.layout.activity_main
     }
 
