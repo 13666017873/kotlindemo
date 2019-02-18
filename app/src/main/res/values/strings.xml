@@ -1,6 +1,11 @@
-<resources>
-    <string name="app_name">MyKotlin</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="ExtraTranslation">MyKotlin</string>
     <string name="title_name">title_name</string>
     <string name="todo">TODO</string>
     <string name="choose">选择</string>
+    <string name="service_error">服务器出错</string>
+    <string name="not_found">请求的资源不存在</string>
+    <string name="timeout">请求超时</string>
+    <string name="unexpected_error">未知错误</string>
+    <string name="network_wrong">网络有问题</string>
 </resources>
